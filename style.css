@@ -14,6 +14,7 @@ body{
   width: 100vw;
   min-height: 100vh;
   font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .header{
@@ -134,4 +135,43 @@ body{
   padding: 0.75rem 0rem;
   border: 1px solid #8D448B;
   border-radius: 5px;
+}
+
+/* clients-container */
+.clients-container{
+  width: 100%;
+  padding: 4rem 9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+/* client-box */
+.client-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* client-title */
+.client-title{
+  font-size: 1.1rem;
+  color: #8D448B;
+  font-weight: 900;
+}
+
+.client-header{
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0rem 14rem;
+}
+
+.clients{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
