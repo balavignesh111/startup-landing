@@ -270,3 +270,88 @@ body{
   flex-direction: column;
   gap: 0.3rem;
 }
+
+/* gallery box starts here!!! */
+.gallery-container{
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+.gallery-title{
+  color: #8D448B;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.gallery-desc{
+  font-size: 1.8rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.gallery-pics{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery-box{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.gallery-pic-box-1{
+  width: 21rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-pic-1{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.image-description{
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  bottom: 2rem;
+  left: 1.58rem;
+}
+
+.gallery-pic-1:hover{
+  transform: scale(1.25,1.25);
+  transition: all 0.5s ease-out;
+}
+
+/* explore-btn */
+.explore-btn{
+  color: #343D48;
+  font-size: 1rem;
+  background-color: #EDF0F2;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 1px solid;
+  border-color: #EDF0F2;
+  border-radius: 5px;
+}
+
+.explore-btn i{
+  font-size: 0.7rem;
+}
+
+.explore-btn:hover{
+  color: white;
+  background-color: #8D448B;
+  transition: all 0.3s ease-in;
+}
