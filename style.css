@@ -355,3 +355,173 @@ body{
   background-color: #8D448B;
   transition: all 0.3s ease-in;
 }
+
+/* price container */
+.price-container{
+  color: white;
+  background-color: rgb(2,7,24);
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.price-suit{
+  font-size: 2rem;
+}
+
+.price-btn-design{
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.price-btn-container{
+  padding: 0.5rem;
+  border: 1px solid #343D48;
+  border-radius: 5px;
+}
+
+.active{
+  color: #EDF0F2;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* pack container */
+.pack-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.card{
+  width: 28rem;
+  border: 1px solid #343D48;
+  border-radius: 10px;
+}
+
+.card-sec-one{
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.card-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-point{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.available{
+  color: #3fdbb1;
+}
+
+.not-available{
+  color: #81838c;
+}
+
+.card-sec-two{
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #343D48;
+}
+
+.card-sec-two-price{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.starting-from{
+  color: #ffffff99;
+}
+
+.card-sec-two i{
+  font-size: 1.5rem;
+}
+
+.sec-box-price{
+  color: #8D448B;
+}
+
+.second-card{
+  background-color: white;
+  color: #343D48;
+}
+
+.grey-box{
+  background-color: #f0f0f5;
+  border-color: #f0f0f5;
+  border-radius: 10px;
+}
+
+.starting-from-sec-box{
+  color: #343D48;
+}
+
+/* happy customer */
+.happy-customer{
+  width: 100%;
+  padding: 3rem 9rem;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.customer-img-box{
+  width: 50%;
+}
+
+.customer-img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.customer-cnt{
+  width: 50%;
+  padding: 1rem;
+  padding-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.customer-title{
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.customer-desc{
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.customer-learn{
+  color: #8D448B;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.customer-learn i{
+  font-size: 0.75rem;
+}
